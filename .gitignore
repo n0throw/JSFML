@@ -56,4 +56,12 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.DS_Store!/gradlew.bat
+.idea/
+gradle/
+gradlew
+gradlew.bat
+!/gradlew
+!/gradlew.bat
+!/gradlew
+!/gradlew.bat
