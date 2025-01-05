@@ -135,7 +135,7 @@ public interface Tuple extends Serializable, Iterable<Object>, Comparable<Tuple>
      *
      * @return Массив элементов кортежа.
      */
-    Object @NotNull [] toArray();
+    @NotNull Object[] toArray();
 
     /**
      * Преобразует все элементы кортежа в коллекцию.

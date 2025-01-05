@@ -62,7 +62,7 @@ public abstract class TupleAbs1<T1> implements Tuple {
      * {@inheritDoc}
      */
     @Override
-    public Object @NotNull [] toArray() {
+    public @NotNull Object[] toArray() {
         return new Object[]{_value1};
     }
 

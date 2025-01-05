@@ -91,7 +91,7 @@ public class TupleAbs4<T1, T2, T3, T4> implements Tuple {
      * {@inheritDoc}
      */
     @Override
-    public Object @NotNull [] toArray() {
+    public @NotNull Object [] toArray() {
         return new Object[]{_value1, _value2, _value3, _value4};
     }
 
